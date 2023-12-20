@@ -5,7 +5,7 @@ const Taskd = () => {
   const numbers = [1, 2, 3, 4, 5];
   console.log(_.first(numbers));
   console.log(_.last(numbers));
-  console.log(_.nth(numbers, 3));
+  console.log(_.takeRight(numbers, 2));
 
   return <div></div>;
 };

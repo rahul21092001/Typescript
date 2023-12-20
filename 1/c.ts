@@ -4,13 +4,13 @@ interface UserProfile {
   email: string;
 }
 
-interface Product {
+type Product = {
   productId: number;
   productName: string;
   price: number;
 }
 
-const user: UserProfile = {
+const user : UserProfile = {
   userId: 1,
   username: "Rahul",
   email: "Rahul@gmail.com",

@@ -10,3 +10,6 @@ console.log(numberArray);
 console.log(stringArray);
 console.log(booleanArray);
 
+
+
+
